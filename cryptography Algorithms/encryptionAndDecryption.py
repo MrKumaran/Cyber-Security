@@ -25,9 +25,9 @@ if __name__ == "__main__":
     print("Key from 0 - 40")
     text = input('Enter the text to encrypt: ')
     key = int(input('Enter the key: '))
-    encryptedText = encrypt(key, text)
-    print(f'Cipher: {encryptedText}')
-    decryptedText = decrypt(key, encryptedText)
-    print(f'Decrypted text: {decryptedText}')
+    cipher = encrypt(key, text)
+    print(f'Cipher: {cipher}')
+    decipher = decrypt(key, cipher)
+    print(f'Decipher: {decipher}')
 
 
