@@ -1,3 +1,5 @@
+# Encrypts and decrypts a string into cipher contains symbols and alphabets
+
 def encrypt(shiftValue, stringToEncrypt):
     encryptedText = ''
     for char in stringToEncrypt:

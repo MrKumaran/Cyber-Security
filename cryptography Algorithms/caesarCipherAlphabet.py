@@ -1,3 +1,5 @@
+# shift the letters in the text by s places
+
 def encrypt(text, s):
     result = ""
     for char in text:
