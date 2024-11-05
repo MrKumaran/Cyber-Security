@@ -37,3 +37,4 @@ def isValid(mail):
 if __name__ == "__main__":
     email = input("Enter your email: ")
     print(isValid(email.lower()))
+    # To DO
