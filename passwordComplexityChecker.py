@@ -9,6 +9,7 @@
 
 import re as r
 
+
 def passwordComplexityChecker(password, username, company_name, name):
     strength = 175
     message = ""
@@ -34,6 +35,7 @@ def passwordComplexityChecker(password, username, company_name, name):
         strength += 25
     return strength, message
 
+
 if __name__ == "__main__":
     password = input("Enter the password: ")
     username = input("Enter the username: ")
@@ -52,6 +54,3 @@ if __name__ == "__main__":
     else:
         print("Password is strong.")
         print(message)
-
-
-
